@@ -1,16 +1,43 @@
 # Fingerprint Generation and Authentication using ADCGAN
 
+This project leverages **Adaptive Deep Convolutional Generative Adversarial Networks (ADCGAN)** for generating and authenticating fingerprint images, crucial for applications like mobile security, biometrics, and airport systems.
+
 ## Overview
-This project focuses on the generation and authentication of fingerprints using Adaptive Deep Convolution Generative Adversarial Networks (ADCGAN). Fingerprints are vital for human identification due to their uniqueness. This project leverages deep learning, specifically ADCGAN, to address the complexities of fingerprint authentication in various applications, from mobile security to airport systems.
+
+Fingerprints are unique and widely used for secure authentication. This project employs deep learning with ADCGAN to generate realistic fingerprints and authenticate them with a high degree of accuracy, achieving **92% authentication accuracy**.
 
 ## Key Features
-- **Fingerprint Synthesis**: Utilizes ADCGAN to generate realistic fingerprint images.
-- **Authentication**: Implements a model to authenticate generated fingerprints with high accuracy.
-- **Dataset**: Trained on the Socofing dataset, achieving 92% accuracy.
-- **Applications**: Suitable for enhancing security in devices and systems where fingerprint authentication is critical.
 
-## Abstract
-Deep learning has revolutionized fields like natural language processing, computer vision, and speech processing. This project explores its application in fingerprint synthesis and biometrics. Generative Adversarial Networks (GANs) are particularly effective in generating realistic samples from existing data distributions. ADCGAN extends this capability, enabling unrestricted fingerprint research by bypassing the confidentiality issues typically associated with biometric data.
+- **Fingerprint Synthesis**: Generates realistic fingerprints using ADCGAN.
+- **Fingerprint Authentication**: Authenticates fingerprints generated with ADCGAN.
+- **High Accuracy**: 92% accuracy on the Socofing fingerprint dataset.
+- **Application Areas**: Useful for secure access in mobile, biometric systems, and more.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Required Libraries: `tensorflow`, `keras`, `torch`, `opencv-python`, `numpy`, `matplotlib`
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/Fingerprint-Generation-Authentication-ADCGAN.git
+## Results
+Accuracy: The ADCGAN model achieved 92% accuracy on the test set.
+Generated Samples: Sample generated fingerprints can be found in the results/ directory.
+
+
+## Demostration
+https://github.com/user-attachments/assets/e451fdbf-c9a8-4cb6-9c4c-008a70c55179
+
+## Applications
+This project has potential applications in:
+Mobile Security: Fingerprint-based access control
+Biometric Systems: Secure identity verification
+Airport & Public Safety: Reliable biometric identification systems
 
 ## Reference
 For more details, refer to my full paper: [Fingerprint Generation and Authentication using ADCGAN](https://ieeexplore.ieee.org/document/10178664)
